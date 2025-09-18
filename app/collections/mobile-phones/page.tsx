@@ -12,19 +12,23 @@ export default async function CollectionMobilePhonesPage({
   const query = typeof searchParams.q === 'string' ? searchParams.q : undefined;
   
   return (
-    <div className="grid md:grid-cols-[240px,1fr] gap-8">
-      <aside className="space-y-6">
-        <ProductFilters />
-      </aside>
-      <section>
-        <Suspense fallback={<ProductGridSkeleton />}>
-          <ProductGrid 
-            page={page}
-            filters={{ brand }}
-            query={query}
-          />
-        </Suspense>
-      </section>
+    <div className="py-16 bg-slate-50 min-h-screen">
+      <div className="container">
+        <div className="grid md:grid-cols-[280px,1fr] gap-12">
+          <aside className="space-y-6">
+            <ProductFilters />
+          </aside>
+          <section>
+            <Suspense fallback={<ProductGridSkeleton />}>
+              <ProductGrid 
+                page={page}
+                filters={{ brand }}
+                query={query}
+              />
+            </Suspense>
+          </section>
+        </div>
+      </div>
     </div>
   );
 }

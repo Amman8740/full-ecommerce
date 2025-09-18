@@ -122,7 +122,7 @@ export default function ProductInfo({ product }: { product: Product }) {
           <div>✓ 13-month seller warranty</div>
           <div>✓ 30-day returns</div>
           <div>✓ Free UK delivery</div>
-          <div>✓ What's in the box: Phone, charger, cable</div>
+          <div>✓ What&apos;s in the box: Phone, charger, cable</div>
         </div>
       </div>
     </div>

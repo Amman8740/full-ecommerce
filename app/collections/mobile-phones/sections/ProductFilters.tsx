@@ -48,12 +48,12 @@ export default function ProductFilters() {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="bg-white rounded-2xl shadow-lg p-6 space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="font-medium">Filters</h2>
+        <h2 className="text-lg font-semibold text-slate-900">Filters</h2>
         <button 
           onClick={clearFilters}
-          className="text-sm text-emerald-600 hover:text-emerald-700"
+          className="text-sm text-emerald-600 hover:text-emerald-700 font-medium"
         >
           Clear all
         </button>
