@@ -1,0 +1,233 @@
+[
+  {
+    "id": "prod-1",
+    "slug": "iphone-13-128gb-midnight",
+    "name": "Apple iPhone 13 128GB Midnight",
+    "brand": "Apple",
+    "description": "The iPhone 13 features a stunning 6.1-inch Super Retina XDR display, A15 Bionic chip, and advanced camera system with Night mode.",
+    "images": [
+      "https://images.unsplash.com/photo-1631700611304-3bf264e80b6f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606229365485-93b23da3a36b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1610945265070-9e8925f2f4b9?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "priceCents": 39900,
+    "compareAtCents": 49900,
+    "variants": [
+      {
+        "id": "var-1",
+        "storage": 128,
+        "color": "Midnight",
+        "sku": "IPH13-128-MID",
+        "prices": {
+          "fair": 29900,
+          "very-good": 34900,
+          "excellent": 39900,
+          "like-new": 44900
+        },
+        "inventory": {
+          "fair": 5,
+          "very-good": 12,
+          "excellent": 8,
+          "like-new": 3
+        }
+      },
+      {
+        "id": "var-2",
+        "storage": 256,
+        "color": "Midnight",
+        "sku": "IPH13-256-MID",
+        "prices": {
+          "fair": 34900,
+          "very-good": 39900,
+          "excellent": 44900,
+          "like-new": 49900
+        },
+        "inventory": {
+          "fair": 3,
+          "very-good": 7,
+          "excellent": 5,
+          "like-new": 2
+        }
+      }
+    ],
+    "specs": [
+      { "key": "Display", "value": "6.1-inch Super Retina XDR" },
+      { "key": "Chip", "value": "A15 Bionic" },
+      { "key": "Storage", "value": "128GB / 256GB" },
+      { "key": "Camera", "value": "Dual 12MP camera system" },
+      { "key": "Battery", "value": "Up to 19 hours video playback" },
+      { "key": "Water Resistance", "value": "IP68" }
+    ],
+    "reviews": [
+      {
+        "id": "rev-1",
+        "rating": 5,
+        "title": "Excellent condition",
+        "body": "Looks and works like new. Great value for money.",
+        "author": "Sarah M.",
+        "date": "2024-01-15"
+      },
+      {
+        "id": "rev-2",
+        "rating": 4,
+        "title": "Very happy",
+        "body": "Minor scratches but everything works perfectly.",
+        "author": "James K.",
+        "date": "2024-01-10"
+      }
+    ]
+  },
+  {
+    "id": "prod-2",
+    "slug": "iphone-12-64gb-blue",
+    "name": "Apple iPhone 12 64GB Blue",
+    "brand": "Apple",
+    "description": "The iPhone 12 features a 6.1-inch Super Retina XDR display, A14 Bionic chip, and dual-camera system with Night mode.",
+    "images": [
+      "https://images.unsplash.com/photo-1606229365485-93b23da3a36b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631700611304-3bf264e80b6f?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "priceCents": 29900,
+    "compareAtCents": 39900,
+    "variants": [
+      {
+        "id": "var-3",
+        "storage": 64,
+        "color": "Blue",
+        "sku": "IPH12-64-BLU",
+        "prices": {
+          "fair": 19900,
+          "very-good": 24900,
+          "excellent": 29900,
+          "like-new": 34900
+        },
+        "inventory": {
+          "fair": 8,
+          "very-good": 15,
+          "excellent": 10,
+          "like-new": 4
+        }
+      }
+    ],
+    "specs": [
+      { "key": "Display", "value": "6.1-inch Super Retina XDR" },
+      { "key": "Chip", "value": "A14 Bionic" },
+      { "key": "Storage", "value": "64GB" },
+      { "key": "Camera", "value": "Dual 12MP camera system" },
+      { "key": "Battery", "value": "Up to 17 hours video playback" },
+      { "key": "Water Resistance", "value": "IP68" }
+    ],
+    "reviews": [
+      {
+        "id": "rev-3",
+        "rating": 5,
+        "title": "Perfect phone",
+        "body": "Amazing condition and performance. Highly recommended!",
+        "author": "Emma L.",
+        "date": "2024-01-20"
+      }
+    ]
+  },
+  {
+    "id": "prod-3",
+    "slug": "samsung-galaxy-s21-128gb-gray",
+    "name": "Samsung Galaxy S21 128GB Phantom Gray",
+    "brand": "Samsung",
+    "description": "The Galaxy S21 features a 6.2-inch Dynamic AMOLED 2X display, Snapdragon 888 processor, and triple camera system.",
+    "images": [
+      "https://images.unsplash.com/photo-1610945265070-9e8925f2f4b9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606229365485-93b23da3a36b?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "priceCents": 27900,
+    "compareAtCents": 37900,
+    "variants": [
+      {
+        "id": "var-4",
+        "storage": 128,
+        "color": "Phantom Gray",
+        "sku": "SGS21-128-GRY",
+        "prices": {
+          "fair": 19900,
+          "very-good": 22900,
+          "excellent": 27900,
+          "like-new": 32900
+        },
+        "inventory": {
+          "fair": 6,
+          "very-good": 11,
+          "excellent": 9,
+          "like-new": 3
+        }
+      }
+    ],
+    "specs": [
+      { "key": "Display", "value": "6.2-inch Dynamic AMOLED 2X" },
+      { "key": "Processor", "value": "Snapdragon 888" },
+      { "key": "Storage", "value": "128GB" },
+      { "key": "Camera", "value": "Triple 12MP camera system" },
+      { "key": "Battery", "value": "4000mAh" },
+      { "key": "Water Resistance", "value": "IP68" }
+    ],
+    "reviews": [
+      {
+        "id": "rev-4",
+        "rating": 4,
+        "title": "Great value",
+        "body": "Solid performance and good condition. Minor wear on edges.",
+        "author": "Mike R.",
+        "date": "2024-01-18"
+      }
+    ]
+  },
+  {
+    "id": "prod-4",
+    "slug": "google-pixel-7-128gb-black",
+    "name": "Google Pixel 7 128GB Obsidian",
+    "brand": "Google",
+    "description": "The Pixel 7 features a 6.3-inch OLED display, Google Tensor G2 chip, and dual-camera system with advanced computational photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1664627936615-39ac78e1bd1b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631700611304-3bf264e80b6f?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "priceCents": 33900,
+    "compareAtCents": 43900,
+    "variants": [
+      {
+        "id": "var-5",
+        "storage": 128,
+        "color": "Obsidian",
+        "sku": "GP7-128-OBS",
+        "prices": {
+          "fair": 24900,
+          "very-good": 28900,
+          "excellent": 33900,
+          "like-new": 38900
+        },
+        "inventory": {
+          "fair": 4,
+          "very-good": 8,
+          "excellent": 6,
+          "like-new": 2
+        }
+      }
+    ],
+    "specs": [
+      { "key": "Display", "value": "6.3-inch OLED" },
+      { "key": "Processor", "value": "Google Tensor G2" },
+      { "key": "Storage", "value": "128GB" },
+      { "key": "Camera", "value": "Dual 50MP camera system" },
+      { "key": "Battery", "value": "4355mAh" },
+      { "key": "Water Resistance", "value": "IP68" }
+    ],
+    "reviews": [
+      {
+        "id": "rev-5",
+        "rating": 5,
+        "title": "Outstanding camera",
+        "body": "The camera quality is incredible. Phone is in excellent condition.",
+        "author": "Lisa T.",
+        "date": "2024-01-12"
+      }
+    ]
+  }
+]
