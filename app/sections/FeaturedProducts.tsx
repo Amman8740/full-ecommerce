@@ -11,7 +11,8 @@ interface FeaturedProductsProps {
 
 export default function FeaturedProducts({ products }: FeaturedProductsProps) {
   const addItem = useCart((s) => s.addItem);
-  const { open } = useCartUI.getState ? useCartUI() : { open: () => {} }; // safe if you don't use the drawer
+  const cartUI = useCartUI();
+  const open = cartUI?.open ?? (() => {}); // safe if you don't use the drawer
 
   return (
     <section className="py-16 bg-slate-50">
