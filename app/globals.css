@@ -54,3 +54,37 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
+/* --- Announcement marquee --- */
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }  /* leftwards */
+}
+@keyframes marquee-reverse {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }    /* rightwards */
+}
+
+.annc-track {
+  display: flex;
+  gap: 3rem;            /* space between messages */
+  width: max-content;   /* let the track be as wide as it needs */
+  will-change: transform;
+}
+
+.animate-annc {               /* left → default */
+  animation: marquee 22s linear infinite;
+}
+.animate-annc-reverse {       /* right → your request */
+  animation: marquee-reverse 22s linear infinite;
+}
+
+.annc:hover .animate-annc,
+.annc:hover .animate-annc-reverse {
+  animation-play-state: paused; /* pause on hover */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-annc,
+  .animate-annc-reverse { animation: none; }
+}
+

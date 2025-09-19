@@ -70,8 +70,8 @@ export default function TrustpilotSection() {
                   <div className="font-semibold text-slate-900">{review.name}</div>
                   <div className="text-sm text-slate-600">{review.product}</div>
                 </div>
-                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <span className="text-emerald-600 font-semibold text-sm">
+                <div className="w-10 h-10 bg-lime-200 rounded-full flex items-center justify-center">
+                  <span className="text-lime-600 font-semibold text-sm">
                     {review.name.charAt(0)}
                   </span>
                 </div>
